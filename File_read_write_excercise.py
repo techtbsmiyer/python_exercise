@@ -1,0 +1,7 @@
+hosts=open("C:\Python_Programs\python_exercise\.git\File_read_write_excercise.txt","r")
+hosts_content=hosts.read()
+#print(hosts_content)
+hosts_content.write("\n 10|11|12")
+hosts.seek(0)
+print(hosts_content)
+hosts.close()
